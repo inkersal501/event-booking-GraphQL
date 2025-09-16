@@ -1,0 +1,20 @@
+#root {
+  max-width: 100%;
+  margin: 0px;
+  padding: 0px; 
+  width: 100%;
+}
+ 
+
+.events-card{ 
+  text-align: left;
+  border: 1px solid #ccc;
+  border-radius: 10px; 
+  padding: 10px 20px;
+  margin: 8px 0px;
+  max-width: 30vw;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
