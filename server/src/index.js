@@ -13,8 +13,7 @@ app.use(compression());
 app.use(express.json());
 
 const server = new ApolloServer({typeDefs: allTypeDefs, resolvers});
-await server.start();
-// app.use(expressMiddleware(server));
+await server.start(); 
 
 app.use("/graphql", expressMiddleware(server));
 
